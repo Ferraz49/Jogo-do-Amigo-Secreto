@@ -1,38 +1,57 @@
-# Documentação - Jogo do Amigo Secreto
+# 🎁 Jogo do Amigo Secreto
 
-## 📌 Descrição do Projeto
-Este projeto é um simples jogo de Amigo Secreto desenvolvido em JavaScript. Ele permite que usuários adicionem amigos a uma lista, visualizem os participantes e realizem o sorteio de um amigo secreto aleatoriamente.
-
-## ✨ Funcionalidades
-- Adicionar amigos à lista
-- Visualizar a lista de amigos
-- Remover amigos individualmente
-- Sortear um amigo secreto
-
-## 🛠️ Instalação e Dependências
-Este projeto não requer instalação de dependências externas. Apenas um navegador com suporte a JavaScript.
-
-### Passos para executar o projeto:
-1. Baixe ou clone o repositório contendo o código.
-2. Abra o arquivo `index.html` em um navegador.
-3. Utilize os botões da interface para adicionar amigos e realizar o sorteio.
-
-## 🚀 Como Executar o Projeto
-1. Abra o arquivo `index.html` em qualquer navegador moderno.
-2. Insira nomes na caixa de entrada e clique em "Adicionar".
-3. Para remover um amigo, clique no botão "Remover" ao lado do nome.
-4. Para sortear um amigo, clique em "Sortear Amigo Secreto".
-
-## 🔧 Possíveis Problemas e Soluções
-### 1. O botão de sorteio não funciona.
-**Solução:** Certifique-se de que há pelo menos um amigo na lista antes de sortear.
-
-### 2. O mesmo nome está sendo adicionado mais de uma vez.
-**Solução:** O código já evita duplicatas, mas se o problema ocorrer, verifique se há espaços extras no nome.
-
-### 3. O layout não está correto no navegador.
-**Solução:** Atualize seu navegador para a versão mais recente ou tente executar o projeto em outro navegador.
+## 📌 Descrição do Projeto 📝
+Este é um jogo do Amigo Secreto desenvolvido com **HTML, CSS e JavaScript**. O usuário pode adicionar amigos a uma lista, remover participantes e realizar um sorteio aleatório para determinar o amigo secreto.
 
 ---
-Agora você pode usar e compartilhar esse jogo do Amigo Secreto facilmente! 🎉
+
+## 🚀 Funcionalidades 🛠️
+✅ Adicionar amigos à lista
+✅ Exibir os amigos cadastrados
+✅ Remover amigos da lista
+✅ Realizar o sorteio de um amigo secreto aleatoriamente
+✅ Exibição do resultado do sorteio
+
+---
+
+## 🛠 Tecnologias Utilizadas
+- **HTML** 🌐: Estrutura do site
+- **CSS** 🎨: Estilização e layout
+- **JavaScript** ⚙️: Lógica do jogo e interatividade
+
+---
+
+## 🔧 Instalação e Execução 📥
+### 1️⃣ Pré-requisitos
+Nenhuma instalação adicional é necessária. Basta um navegador web moderno.
+
+### 2️⃣ Como executar
+1. Baixe ou clone o repositório
+   ```bash
+   git clone https://github.com/seu-usuario/amigo-secreto.git
+   ```
+2. Abra o arquivo `index.html` no navegador
+3. Aproveite o jogo! 🎉
+
+---
+
+## ⚠ Possíveis Problemas e Soluções 🛑
+❌ **Erro: Nome de amigo já foi adicionado**
+   - O jogo não permite nomes duplicados. Certifique-se de adicionar apenas nomes únicos.
+
+❌ **Erro: Lista vazia ao tentar sortear**
+   - Adicione pelo menos um amigo antes de realizar o sorteio.
+
+❌ **Botão de remover não funciona**
+   - Certifique-se de estar utilizando um navegador atualizado.
+
+---
+
+💡 **Dicas:**
+- Para melhor experiência, utilize um navegador moderno como **Google Chrome, Firefox ou Edge**.
+- Você pode estilizar o jogo alterando o arquivo CSS!
+
+---
+
+👨‍💻 **Desenvolvido por:** *Claudio Ferraz*
 
